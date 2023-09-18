@@ -1,0 +1,37 @@
+/* Speech class */
+.Speech {
+    font-family: Arial, sans-serif; /* Choose an appropriate font */
+    font-size: 16px; /* Choose an appropriate font size */
+    color: black;
+}
+
+/* Direction class */
+.Direction {
+    font-family: 'Times New Roman', serif; /* Choose a different font */
+    font-size: 14px; /* Choose a different font size */
+    color: black;
+    background-color: lightgray; /* Set a light background color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover transition */
+}
+
+/* Hover effect for Direction class */
+.Direction:hover {
+    background-color: lightblue; /* Change background-color on hover */
+    color: white; /* Change text color on hover */
+}
+
+/* Character-specific styles */
+.Citizen1st{
+    color: burlywood; /* Choose a color for Mary's lines */
+}
+
+.Citizen2nd{
+    color: green; /* Choose a color for Ollivant's lines */
+}
+
+.Citizen3rd{
+    color: plum /* Choose a color for Emily's lines */
+}
+.Citizen4th{
+    color: purple; /* Choose a color for Emily's lines */
+}
