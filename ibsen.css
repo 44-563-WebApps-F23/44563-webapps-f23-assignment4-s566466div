@@ -22,16 +22,16 @@
 
 /* Character-specific styles */
 .Citizen1st{
-    color: burlywood; /* Choose a color for Mary's lines */
+    color: burlywood; /* Choose a color for  1st Citizen lines */
 }
 
 .Citizen2nd{
-    color: green; /* Choose a color for Ollivant's lines */
+    color: green; /* Choose a color for 2nd Citizen lines */
 }
 
 .Citizen3rd{
-    color: plum /* Choose a color for Emily's lines */
+    color: plum /* Choose a color for 3rd Citizen lines */
 }
 .Citizen4th{
-    color: purple; /* Choose a color for Emily's lines */
+    color: purple; /* Choose a color for 4th Citizen lines */
 }
