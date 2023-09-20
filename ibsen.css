@@ -35,3 +35,44 @@
 .Citizen4th{
     color: purple; /* Choose a color for 4th Citizen lines */
 }
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px; /* This removes spacing between table cells */
+  }
+  
+  /* Style for table headers */
+  th {
+    background-color: rgb(176, 207, 242);
+    color: white;
+    text-align: left;
+    padding: 5px;
+    border: 1px solid red;
+  }
+  
+  /* Style for table rows */
+  tr {
+    background-color: greenyellow;
+  }
+
+  /* ibsen.css */
+
+/* Style for name when hovering */
+.Citizen3rd:hover {
+    
+    text-shadow: 2px 2px 4px rgba(159, 40, 40, 0.5); /* Add a text shadow with color and blur */
+  }
+.Citizen2nd:hover {
+    
+    text-shadow: 2px 2px 4px rgba(159, 40, 40, 0.5); /* Add a text shadow with color and blur */
+}
+.Citizen1st:hover {
+    
+    text-shadow: 2px 2px 4px rgba(159, 40, 40, 0.5); /* Add a text shadow with color and blur */
+}
+  
+  
+  
+  
+  
