@@ -50,7 +50,13 @@ table {
     padding: 5px;
     border: 1px solid red;
   }
-  
+  td {
+    background-color: rgb(129, 25, 226);
+    color: white;
+    text-align: left;
+    padding: 5px;
+    border: 1px solid black;
+  }
   /* Style for table rows */
   tr {
     background-color: greenyellow;
