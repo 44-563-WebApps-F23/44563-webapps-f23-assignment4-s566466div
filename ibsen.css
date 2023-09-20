@@ -22,18 +22,27 @@
 
 /* Character-specific styles */
 .Citizen1st{
-    color: burlywood; /* Choose a color for  1st Citizen lines */
+    text-shadow: red;
+    border: 2px solid rgb(183, 173, 230);
+    color: purple;
 }
 
 .Citizen2nd{
-    color: green; /* Choose a color for 2nd Citizen lines */
+    text-shadow: red;
+    border: 2px solid rgb(183, 173, 230);
+    color: purple; 
+}
+.Citizen3th{
+    text-shadow: red;
+    border: 2px solid rgb(183, 173, 230);
+    color: purple; 
 }
 
-.Citizen3rd{
-    color: plum /* Choose a color for 3rd Citizen lines */
-}
+
 .Citizen4th{
-    color: purple; /* Choose a color for 4th Citizen lines */
+    text-shadow: red;
+    border: 2px solid rgb(183, 173, 230);
+    color: purple; 
 }
 /* Style for the table */
 /* ibsen.css */
