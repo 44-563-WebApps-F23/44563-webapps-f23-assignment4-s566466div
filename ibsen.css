@@ -22,30 +22,27 @@
 
 /* Character-specific styles */
 .Citizen1st{
-    text-shadow: red;
-    border: 2px solid rgb(183, 173, 230);
-    color: purple;
+    color: burlywood; /* Choose a color for  1st Citizen lines */
 }
 
 .Citizen2nd{
-    text-shadow: red;
-    border: 2px solid rgb(183, 173, 230);
-    color: purple; 
-}
-.Citizen3th{
-    text-shadow: red;
-    border: 2px solid rgb(183, 173, 230);
-    color: purple; 
+    color: green; /* Choose a color for 2nd Citizen lines */
 }
 
-
+.Citizen3rd{
+    color: plum /* Choose a color for 3rd Citizen lines */
+}
 .Citizen4th{
-    text-shadow: red;
-    border: 2px solid rgb(183, 173, 230);
-    color: purple; 
+    color: purple; /* Choose a color for 4th Citizen lines */
 }
 /* Style for the table */
-/* ibsen.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px; /* This removes spacing between table cells */
+  }
+  
+  /* ibsen.css */
 .styled-table {
     border-collapse: collapse;
     width: 100%;
@@ -53,45 +50,53 @@
 }
 
 .styled-table th, .styled-table td {
-    border: 1px solid #873939;
+    border: 1px solid greenyellow;
     padding: 8px;
     text-align: left;
 }
 
 .styled-table th {
-    background-color: yellowgreen;
+    background-color: #746b6b;
 }
 
-.styled-table tr:nth-child(even) {
-    background-color: wheat;  
-}
 .styled-table tr:nth-child(odd) {
-    background-color: lightskyblue;  
+    background-color: lightcyan;
+}
+.styled-table tr:nth-child(even) {
+    background-color: lightblue;
 }
 
 .styled-table tr:hover {
-    background-color: lightcoral;
+    background-color: red;
 }
 
-
-  /* ibsen.css */
-
 /* Style for name when hovering */
-.Citizen3rd:hover {
+.Citizen1st:hover {
     
     text-shadow: 2px 2px 4px rgba(159, 40, 40, 0.5); /* Add a text shadow with color and blur */
+    border : 2px solid lightblue; 
+    color: rgb(144, 187, 52); 
+    filter: blur(1px);
   }
 .Citizen2nd:hover {
     
     text-shadow: 2px 2px 4px rgba(159, 40, 40, 0.5); /* Add a text shadow with color and blur */
+    border : 2px solid lightblue;
+    color: rgb(144, 187, 52); 
+    filter: blur(1px);
 }
-.Citizen1st:hover {
+.Citizen3rd:hover {
     
     text-shadow: 2px 2px 4px rgba(159, 40, 40, 0.5); /* Add a text shadow with color and blur */
+    border : 2px solid lightblue;
+    color: rgb(144, 187, 52); 
+    filter: blur(1px);
 }
   
 .navbar {
-    background-color: #333;
+    background-image: linear-gradient(90deg, #333 50%, #444 50%);
+    background-size: 200% 100%;
+    animation: striping 2s linear infinite;
     color: white;
     text-align: center;
     padding: 10px;
@@ -109,6 +114,15 @@
   
   .navbar a:hover {
     text-decoration: underline;
+  }
+  
+  @keyframes striping {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
   }
   
   
