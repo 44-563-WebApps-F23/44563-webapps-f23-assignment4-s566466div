@@ -36,31 +36,34 @@
     color: purple; /* Choose a color for 4th Citizen lines */
 }
 /* Style for the table */
-table {
-    width: 100%;
+/* ibsen.css */
+.styled-table {
     border-collapse: collapse;
-    margin: 10px; /* This removes spacing between table cells */
-  }
-  
-  /* Style for table headers */
-  th {
-    background-color: rgb(176, 207, 242);
-    color: white;
+    width: 100%;
+    margin: 20px;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #873939;
+    padding: 8px;
     text-align: left;
-    padding: 5px;
-    border: 1px solid red;
-  }
-  td {
-    background-color: rgb(129, 25, 226);
-    color: white;
-    text-align: left;
-    padding: 5px;
-    border: 1px solid black;
-  }
-  /* Style for table rows */
-  tr {
-    background-color: greenyellow;
-  }
+}
+
+.styled-table th {
+    background-color: yellowgreen;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: wheat;  
+}
+.styled-table tr:nth-child(odd) {
+    background-color: lightskyblue;  
+}
+
+.styled-table tr:hover {
+    background-color: lightcoral;
+}
+
 
   /* ibsen.css */
 
